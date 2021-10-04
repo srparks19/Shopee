@@ -30,10 +30,6 @@
 <header id="header">
     <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
         <p class="font-rale font-size-12 text-black-50 m-0">Esmeralda 01-8000-123456 correoesmeralda@gmail.com</p>
-        <div class="font-rale font-size-14">
-            <a href="#" class="px-3 border-right border-left text-dark">Acceder</a>
-            <a href="#" class="px-3 border-right text-dark">Favoritos (0)</a>
-        </div>
     </div>
 
     <!-- Primary Navigation -->
@@ -48,19 +44,7 @@
                     <a class="nav-link" href="#">En venta</a>
                 </li>
                 <li class="nav-item">
-<<<<<<< HEAD
-                    <a class="nav-link" href="#">Productos <i class="fas fa-chevron-down"></i></a>
-                </li>
-                <li class="nav-item">
-=======
->>>>>>> main
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">Categorias <i class="fas fa-chevron-down"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pronto!</a>
                 </li>
             </ul>
             <form action="#" class="font-size-14 font-rale">
