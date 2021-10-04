@@ -8,3 +8,7 @@ In this complete E-commerce Website, We will take a look at how to create Mobile
     Borrar tamaño y color
     Sold by Daily Electronics
     Borrar favoritos y Acceder
+-Hacer 10 productos mas y añadir descripcion a todos
+-SOlucionar problema de Apache
+-Hacer 1 blog
+-Hacer el 'proceder a comprar'
