@@ -41,10 +41,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav m-auto font-rubik">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">En venta</a>
+                    <a class="nav-link" href="allproducts.php">En venta</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Categorias <i class="fas fa-chevron-down"></i></a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="categorias.php">Categorias</a>
                 </li>
             </ul>
             <form action="#" class="font-size-14 font-rale">
