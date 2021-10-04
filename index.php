@@ -5,31 +5,33 @@
 ?>
 
 <?php
-/* include banner area */
-  include('Template/_banner-area.php');
-/* include banner area */
 
-/* include top sale section */
-  include('Template/_top-sale.php');
-/* include top sale section */
+    /*  include banner area  */
+        include ('Template/_banner-area.php');
+    /*  include banner area  */
 
-/* include special price section */
-include('Template/_special-price.php');
-/* include special price section */
+    /*  include top sale section */
+        include ('Template/_top-sale.php');
+    /*  include top sale section */
 
-/* include banner ads */
-include('Template/_banner-adds.php');
-/* include banner ads */
+    /*  include special price section  */
+         include ('Template/_special-price.php');
+    /*  include special price section  */
 
-/* include new products */
-include('Template/_new-products.php');
-/* include new products */
+    /*  include banner ads  */
+        include ('Template/_banner-ads.php');
+    /*  include banner ads  */
 
-/* include blogs */
-include('Template/_blogs.php');
-/* include blogs */
+    /*  include new phones section  */
+        include ('Template/_new-products.php');
+    /*  include new phones section  */
+
+    /*  include blog area  */
+         include ('Template/_blogs.php');
+    /*  include blog area  */
 
 ?>
+
 
 <?php
 // include footer.php file

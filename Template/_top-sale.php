@@ -13,7 +13,7 @@
 ?>
 <section id="top-sale">
     <div class="container py-5">
-        <h4 class="font-rubik font-size-20">Top Sale</h4>
+        <h4 class="font-rubik font-size-20">Ventas top</h4>
         <hr>
         <!-- owl carousel -->
         <div class="owl-carousel owl-theme">
@@ -38,9 +38,9 @@
                             <input type="hidden" name="user_id" value="<?php echo 1; ?>">
                             <?php
                             if (in_array($item['item_id'], $Cart->getCartId($product->getData('cart')) ?? [])){
-                                echo '<button type="submit" disabled class="btn btn-success font-size-12">In the Cart</button>';
+                                echo '<button type="submit" disabled class="btn btn-success font-size-12">Ya esta en el carrito</button>';
                             }else{
-                                echo '<button type="submit" name="top_sale_submit" class="btn btn-warning font-size-12">Add to Cart</button>';
+                                echo '<button type="submit" name="top_sale_submit" class="btn btn-warning font-size-12">Añadir al carrito</button>';
                             }
                             ?>
 
