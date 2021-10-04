@@ -48,9 +48,12 @@
                     <a class="nav-link" href="#">En venta</a>
                 </li>
                 <li class="nav-item">
+<<<<<<< HEAD
                     <a class="nav-link" href="#">Productos <i class="fas fa-chevron-down"></i></a>
                 </li>
                 <li class="nav-item">
+=======
+>>>>>>> main
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
