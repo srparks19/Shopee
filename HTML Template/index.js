@@ -6,7 +6,7 @@ $(document).ready(function(){
         items: 1
     });
 
-        // top sale owl carousel
+    // top sale owl carousel
     $("#top-sale .owl-carousel").owlCarousel({
         loop: true,
         nav: true,
@@ -24,7 +24,6 @@ $(document).ready(function(){
         }
     });
 
-
     // isotope filter
     var $grid = $(".grid").isotope({
         itemSelector : '.grid-item',
@@ -38,9 +37,8 @@ $(document).ready(function(){
     })
 
 
-
-      // new products owl carousel
-      $("#new-products .owl-carousel").owlCarousel({
+    // new phones owl carousel
+    $("#new-phones .owl-carousel").owlCarousel({
         loop: true,
         nav: false,
         dots: true,
@@ -99,7 +97,4 @@ $(document).ready(function(){
     });
 
 
-
-
 });
-
