@@ -5,7 +5,7 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
+CREATE database shopee;
 
 --
 -- Database: `shopee`
@@ -36,7 +36,7 @@ CREATE TABLE `product` (
   `item_price` double(10,2) NOT NULL,
   `item_image` varchar(255) NOT NULL,
   `item_register` datetime DEFAULT NULL,
-  `item_desc` varchar(255) NOT NULL,
+  `item_desc` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -52,24 +52,23 @@ INSERT INTO `product` (`item_id`, `item_brand`, `item_name`, `item_price`, `item
 (6, 'Oro', 'Anillo promise', 122.00, './assets/products/6.png', '2021-09-25 11:08:57', 'Anillo promise de oro.'),
 (7, 'Plata', 'Anillos lovely', 122.00, './assets/products/7.png', '2021-09-25 11:08:57', 'Anillos lovely de plata - pareja de anillos ideal para parejas.'),
 (8, 'Plata', 'Pulsera Haru', 122.00, './assets/products/8.png', '2021-09-25 11:08:57', 'Pulsera Haru con figura "S"'),
-(9, 'Oro', 'Pulsera Corazón', 152.00, './assets/products/9.png', '2021-09-25 11:08:57'),
-(10, 'Oro', 'Pulsera Galaxy Night', 152.00, './assets/products/10.png', '2021-09-25 11:08:57'),
-(11, 'Oro', 'Pulsera Queendom', 152.00, './assets/products/11.png', '2021-09-25 11:08:57'),
-(12, 'Plata', 'Pulsera Silver', 152.00, './assets/products/12.png', '2021-09-25 11:08:57'),
-(13, 'Oro', 'Golden set', 152.00, './assets/products/13.png', '2021-09-25 11:08:57'),
+(9, 'Oro', 'Pulsera Corazón', 152.00, './assets/products/9.png', '2021-09-25 11:08:57', 'Pulsera Corazón de oro.'),
+(10, 'Oro', 'Pulsera Galaxy Night', 152.00, './assets/products/10.png', '2021-09-25 11:08:57', 'Pulsera Galaxy Night de Oro. Temporada. Ideal para tus hijas.'),
+(11, 'Oro', 'Pulsera Queendom', 152.00, './assets/products/11.png', '2021-09-25 11:08:57', 'Pulsera Queendom de oro con detalle violeta.'),
+(12, 'Plata', 'Pulsera Silver', 152.00, './assets/products/12.png', '2021-09-25 11:08:57', 'Pulsera Silver con detalle rojo.'),
+(13, 'Oro', 'Golden set', 152.00, './assets/products/13.png', '2021-09-25 11:08:57', 'Golden set de oro. Ideal para tus fiestas.'),
 (14, 'Oro', 'Aretes Silver', 152.00, './assets/products/14.png', '2021-09-25 11:08:57', 'Aretes Silver de oro, con detalle colgante.'),
-(15, 'Oro', 'Pulsera Galaxy Night', 152.00, './assets/products/15.png', '2021-09-25 11:08:57', 'Pulsera Galaxy Night de eslabones de oro con detalles silver.'),
-(16, 'Oro', 'Pulsera Queendom', 152.00, './assets/products/16.png', '2021-09-25 11:08:57'),
-(17, 'Plata', 'Pulsera Blue Sky', 152.00, './assets/products/17.png', '2021-09-25 11:08:57'),
-(18, 'Plata', 'Pulsera Golden Star', 152.00, './assets/products/18.png', '2021-10-09 11:08:57'),
-(19, 'Plata', 'Pulsera Violet', 152.00, './assets/products/19.png', '2021-10-09 11:08:57'),
-(20, 'Plata', 'Anillo Red Ocean', 152.00, './assets/products/20.png', '2021-10-09 11:08:57'),
-(21, 'Plata', 'Anillo Cian Sky', 152.00, './assets/products/21.png', '2021-10-09 11:08:57'),
-(22, 'Plata', 'Cadena oro', 152.00, './assets/products/22.png', '2021-10-09 11:08:57'),
-(23, 'Plata', 'Cadena plata', 152.00, './assets/products/23.png', '2021-10-09 11:08:57'),
-(24, 'Plata', 'Anillo Rio', 152.00, './assets/products/24.png', '2021-10-09 11:08:57');
+(15, 'Oro', 'Pulsera Titanic', 152.00, './assets/products/15.png', '2021-09-25 11:08:57', 'Pulsera Titanic para que hasta un Leonardo Dicaprio caiga por ti'),
+(16, 'Oro', 'Pulsera Mikrokosmos', 152.00, './assets/products/16.png', '2021-09-25 11:08:57', 'Pulsera Mikrokosmos - cinco lineas de perlas plata.'),
+(17, 'Plata', 'Pulsera Blue Sky', 152.00, './assets/products/17.png', '2021-09-25 11:08:57', 'Pulsera Blue Sky detalles diamante azul.'),
+(18, 'Plata', 'Pulsera Golden Star', 152.00, './assets/products/18.png', '2021-10-09 11:08:57', 'Pulsera Golden Star de oro con detalles de diamante.'),
+(19, 'Plata', 'Pulsera Violet', 152.00, './assets/products/19.png', '2021-10-09 11:08:57', 'Pulsera Violet de corazón.'),
+(20, 'Plata', 'Anillo Red Ocean', 152.00, './assets/products/20.png', '2021-10-09 11:08:57', 'Anillo Red Ocean de plata estilo antiguo.'),
+(21, 'Plata', 'Anillo Cian Sky', 152.00, './assets/products/21.png', '2021-10-09 11:08:57', 'Anillo Cian Sky de oro. Dale un toque de delicadez a tu estilo.'),
+(22, 'Plata', 'Cadena oro', 152.00, './assets/products/22.png', '2021-10-09 11:08:57', 'Cadena oro'),
+(23, 'Plata', 'Cadena plata', 152.00, './assets/products/23.png', '2021-10-09 11:08:57', 'Cadena plata'),
+(24, 'Plata', 'Anillo Rio', 152.00, './assets/products/24.png', '2021-10-09 11:08:57', 'Anillo Rio');
 
-;
 
 -- --------------------------------------------------------
 
