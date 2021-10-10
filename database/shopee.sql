@@ -58,7 +58,7 @@ INSERT INTO `product` (`item_id`, `item_brand`, `item_name`, `item_price`, `item
 (12, 'Plata', 'Pulsera Silver', 152.00, './assets/products/12.png', '2021-09-25 11:08:57'),
 (13, 'Oro', 'Golden set', 152.00, './assets/products/13.png', '2021-09-25 11:08:57'),
 (14, 'Oro', 'Aretes Silver', 152.00, './assets/products/14.png', '2021-09-25 11:08:57', 'Aretes Silver de oro, con detalle colgante.'),
-(15, 'Oro', 'Pulsera Galaxy Night', 152.00, './assets/products/15.png', '2021-09-25 11:08:57'),
+(15, 'Oro', 'Pulsera Galaxy Night', 152.00, './assets/products/15.png', '2021-09-25 11:08:57', 'Pulsera Galaxy Night de eslabones de oro con detalles silver.'),
 (16, 'Oro', 'Pulsera Queendom', 152.00, './assets/products/16.png', '2021-09-25 11:08:57'),
 (17, 'Plata', 'Pulsera Blue Sky', 152.00, './assets/products/17.png', '2021-09-25 11:08:57'),
 (18, 'Plata', 'Pulsera Golden Star', 152.00, './assets/products/18.png', '2021-10-09 11:08:57'),
