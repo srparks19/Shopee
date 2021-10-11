@@ -4,7 +4,7 @@
 
     // request method post
     if($_SERVER['REQUEST_METHOD'] == "POST"){
-        if (isset($_POST['top_sale_submit'])){
+        if (isset($_POST['product_submit'])){
             // call method addToCart
             $Cart->addToCart($_POST['user_id'], $_POST['item_id']);
         }
@@ -36,7 +36,7 @@
                             if (in_array($item['item_id'], $Cart->getCartId($product->getData('cart')) ?? [])){
                                 echo '<button type="submit" disabled class="btn btn-success form-control">Ya esta en el carrito</button>';
                             }else{
-                                echo '<button type="submit" name="top_sale_submit" class="btn btn-warning form-control">Añadir al carrito</button>';
+                                echo '<button type="submit" name="product_submit" class="btn btn-warning form-control">Añadir al carrito</button>';
                             }
                             ?>
 
